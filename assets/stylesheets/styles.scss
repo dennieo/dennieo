@@ -33,7 +33,7 @@ $light-accent-color: lighten($accent-color,5%);
 
 }
 
-.jumbotron {
+.jumbotron, .about {
   background: white;
     // padding-top: 150px;
     // padding-bottom: 150px;
@@ -53,7 +53,35 @@ $light-accent-color: lighten($accent-color,5%);
 }
 
 
-.navbar {
+.navbar, .about {
+  
+  .btn-default-wire {
+    font-size: 1em;
+    font-weight:900;
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    border-radius: .6rem;
+    color: $dcust;
+    background: white;
+    text-decoration: none;
+    border-color: $lightcust !important;
+    // color:#B9D8ED;
+    // color: white;
+    border: 2px solid;
+    // background: $accent-color;
+    &:hover {
+      background: white;
+      // background: $accent-color;
+      border-color: $accent-color !important;
+      // color: #333;
+      // color:#B9D8ED;
+      // color: $accent-color;
+      // box-shadow: inset 0 -2px rgba(0, 0, 0, .25)
+    }
+  }
+  
   .btn-default {
     font-size: 1em;
     font-weight:900;
@@ -76,8 +104,10 @@ $light-accent-color: lighten($accent-color,5%);
       // color: $accent-color;
       box-shadow: inset 0 -2px rgba(0, 0, 0, .25)
     }
-
   }
+  
+  
+  
 }
 
 .about {
@@ -90,5 +120,44 @@ $light-accent-color: lighten($accent-color,5%);
     font-weight:900;
     padding-bottom:20px;
     color: $dcust;
+  }
+  .links a {
+    padding: 20px 20px;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    text-decoration: none;
+    color: $lightcust;
+    font-size: 1.5em;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+    a {
+      color: $lightcust;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+    
+  }
+}
+.works {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  .coming-soon {
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .made {
+    color: $lightcust;
+    font-size: .8em;
+    font-weight: bold;
+    
   }
 }
