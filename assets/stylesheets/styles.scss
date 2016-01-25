@@ -1,12 +1,12 @@
 @import 'bootstrap';
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "proxima-nova", sans-serif;
 
 }
 
 $dcust: #4a4d55;
-$lightcust: lighten($dcust, 6%);
+$lightcust: lighten($dcust, 9%);
 $accent-color: #067BC2;
 $light-accent-color: lighten($accent-color,5%);
 
@@ -16,7 +16,7 @@ $light-accent-color: lighten($accent-color,5%);
   padding-bottom: 150px;
   h2 {
     text-transform: uppercase;
-    font-weight:900;
+    font-weight:bold;
     color: $light-accent-color;
   }
   h3 {
@@ -36,7 +36,7 @@ $light-accent-color: lighten($accent-color,5%);
     font-weight:900;
     padding-left:2.5rem;
     padding-right:2.5rem;
-    padding-top: 0.6rem;
+    padding-top: 0.7rem;
     color: #777;
     background: white;
     border-color: $light-accent-color;
@@ -59,8 +59,8 @@ $light-accent-color: lighten($accent-color,5%);
 
 .about {
   p {
-    font-size: 1.4em;
-    line-height: 1.6em;
+    font-size: 1.2em;
+    line-height: 1.5em;
     color: $lightcust;
   }
   h3 {
