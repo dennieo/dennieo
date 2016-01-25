@@ -10,10 +10,33 @@ $lightcust: lighten($dcust, 9%);
 $accent-color: #067BC2;
 $light-accent-color: lighten($accent-color,5%);
 
+
+@media (min-width: 922px) {
+  .jumbotron {
+    background: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    h2 {
+      text-transform: uppercase;
+      font-weight:bold;
+      color: $light-accent-color;
+    }
+    h3 {
+      color: $dcust;
+    }
+    .lead {
+      font-weight: normal;
+      color: #777;
+      color: $lightcust;
+    }
+  }
+
+}
+
 .jumbotron {
   background: white;
-  padding-top: 150px;
-  padding-bottom: 150px;
+    // padding-top: 150px;
+    // padding-bottom: 150px;
   h2 {
     text-transform: uppercase;
     font-weight:bold;
@@ -27,8 +50,8 @@ $light-accent-color: lighten($accent-color,5%);
     color: #777;
     color: $lightcust;
   }
-
 }
+
 
 .navbar {
   .btn-default {

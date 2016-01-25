@@ -5815,10 +5815,23 @@ button.close {
 body {
   font-family: "proxima-nova", sans-serif; }
 
+@media (min-width: 922px) {
+  .jumbotron {
+    background: white;
+    padding-top: 150px;
+    padding-bottom: 150px; }
+    .jumbotron h2 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #078bdb; }
+    .jumbotron h3 {
+      color: #4a4d55; }
+    .jumbotron .lead {
+      font-weight: normal;
+      color: #777;
+      color: #5f636e; } }
 .jumbotron {
-  background: white;
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  background: white; }
   .jumbotron h2 {
     text-transform: uppercase;
     font-weight: bold;
