@@ -5946,6 +5946,8 @@ body {
     float: left;
     margin-right: 0;
     padding: 110px 0 0 0; }
+    .project-sample .project-sample-content p {
+      opacity: .8; }
 
 .project-sample-left .project-sample-image {
   position: absolute;

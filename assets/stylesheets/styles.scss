@@ -210,6 +210,9 @@ $light-accent-color: lighten($accent-color,5%);
     float: left;
     margin-right: 0;
     padding: 110px 0 0 0;
+    p {
+      opacity: .8;
+    }
   }
 
 
