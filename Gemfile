@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
-gemspec
-
-# Compass for the dummy app
-gem 'compass', require: false
-
-group :development do
-  gem 'byebug', platforms: [:mri_21, :mri_22], require: false
+group :development, :test do
+  gem 'jekyll', '~> 3.8.3'
+  gem 'jekyll-redirect-from', '~> 0.14.0'
+  gem 'jekyll-sitemap', '~> 1.2.0'
+  gem 'jekyll-toc', '~> 0.6.0'
 end
